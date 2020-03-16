@@ -18,7 +18,7 @@
 * [Earliest Ancestor](projects/ancestor)
 
 ### Day 3
-* [Random Social Network](projects/social)
+* [Random Social Network](projects/social) 
 
 ### Day 4
 * [Adventure Map Traversal](projects/adventure)
