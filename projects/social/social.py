@@ -101,7 +101,8 @@ class SocialGraph:
 				visited[friend_path[-1]] = friend_path
 
 				# friend_path_copy = []
-				for friend in self.friendships[user_id]:
+				# print('check', self.friendships[friend_path[-1]])
+				for friend in self.friendships[friend_path[-1]]:
 					friend_path_copy = friend_path.copy()
 					friend_path_copy.append(friend)
 					queue.enqueue(friend_path_copy)
